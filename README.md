@@ -1,5 +1,7 @@
 # Reto 1 - Analisis de complejidad - Analisis de algoritmos
 
+Para ver la nota en HackMD para poder visualizar los _underbraces_ bien, este es el [enlace](https://hackmd.io/@Galindooo/S1FXjaD9T).
+
 ## Busqueda binaria en el ID
 
 Teniendo en cuenta que se puede buscar en una lista ordenada los ID's de los registros, se puede analizar la complejidad algoritmica de la busqueda binaria en dichos ID's.
