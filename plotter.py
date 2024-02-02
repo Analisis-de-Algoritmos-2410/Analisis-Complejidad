@@ -1,15 +1,16 @@
 import matplotlib.pyplot as plt
 import pandas as pd
-from Persona import generar_censo
+from Persona import Persona
 import random
 import time
 from search import busqueda_binaria, busqueda_lineal
 
-def generar_reporte():
+
+def generar_reporte(arr):
     n = 1000
     tiempos = {'binaria': [], 'lineal': []}
     for x in range(1, n):
-        censo = generar_censo(x)
+        censo = Persona.generar_censo(x)
         persona = random.choice(censo)
 
         # binaria

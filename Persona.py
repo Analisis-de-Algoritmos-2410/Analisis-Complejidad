@@ -17,9 +17,9 @@ class Persona:
     def __str__(self):
         return f"ID: {self.id} - Nombre: {self.nombre} - Edad: {self.edad} - Impuestos [Y/N] {'Y' if self.impuestos else 'N' }"
 
-
-def generar_censo(n):
-    censo = []
-    for i in range(n):
-        censo.append(Persona(i))
-    return censo
+    @staticmethod
+    def generar_censo(n):
+        censo = []
+        for i in range(n):
+            censo.append(Persona(i))
+        return censo

@@ -12,7 +12,9 @@ def busqueda_binaria(inf, sup, arr, target):
 
 
 def busqueda_lineal(arr, target):
+    i = 0
     for persona in arr:
         if persona.nombre == target:
-            return persona
+            return i
+        i += 1
     return -1

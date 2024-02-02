@@ -1,10 +1,10 @@
-from Persona import generar_censo
-from plotter import generar_reporte
+from Persona import Persona
+from menu import *
 
 def main():
-    censo = generar_censo(50000)
+    censo = Persona.generar_censo(50000)
     print(censo[-1])
-    generar_reporte()
+    principal_menu(censo)
 
 
 if __name__ == "__main__":
